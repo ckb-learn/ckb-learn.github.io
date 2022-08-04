@@ -1,8 +1,8 @@
 ---
 id: vu8cnqcr8h38f31qigsit4f
-title: Core
+title: Core Developers
 desc: ''
-updated: 1659617363043
+updated: 1659623375681
 created: 1659616352486
 ---
 

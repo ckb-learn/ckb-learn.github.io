@@ -1,8 +1,8 @@
 ---
 id: root
-title: root
-desc: ""
-updated: 1659617335476
+title: "CKB Learn"
+desc: "Learning Content for Nervos CKB"
+updated: 1659623441206
 created: 1595961348801
 ---
 

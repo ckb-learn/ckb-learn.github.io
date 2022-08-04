@@ -93,6 +93,7 @@ publishing:
         - root
     writeStubs: false
     siteRootDir: docs
+    siteUrl: https://ckb-learn.github.io/
     seo:
         title: CKB Learn
         description: Learning content for Nervos CKB.
