@@ -1,4 +1,9 @@
 {
+  "homepage": "https://ckb-learn.github.io/ckb-learn/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ckb-learn/ckb-learn.git"
+  },
   "dependencies": {
     "@dendronhq/dendron-cli": "^0.106.0"
   }

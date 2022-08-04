@@ -103,6 +103,7 @@ publishing:
         editLinkText: Edit this page on GitHub
         editBranch: main
         editViewMode: tree
+        editRepository: https://github.com/ckb-learn/ckb-learn
     enableSiteLastModified: true
     enableFrontmatterTags: true
     enableHashesForFMTags: false
