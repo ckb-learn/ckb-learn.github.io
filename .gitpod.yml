@@ -1,0 +1,6 @@
+tasks:
+  - init: npm ci
+
+vscode:
+  extensions:
+    - dendron.dendron
