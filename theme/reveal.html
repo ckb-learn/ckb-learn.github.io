@@ -29,7 +29,7 @@
 
   <link rel="stylesheet" href="{{ config.extra.reveal.path | url }}/reset.css">
   <link rel="stylesheet" href="{{ config.extra.reveal.path | url }}/reveal.css">
-  <link rel="stylesheet" href="{{ config.extra.reveal.path | url }}/{{ config.extra.reveal.theme.path }}/{{ page.meta.reveal_theme | default(config.extra.reveal.theme.name) }}"
+  <link rel="stylesheet" href="{{ config.extra.reveal.path | url }}/{{ config.extra.reveal.theme.path }}/{% if page.meta.reveal and page.meta.reveal.theme %}{{ page.meta.reveal.theme }}{% else %}{{config.extra.reveal.theme.name}}{% endif %}"
         id="theme">
 
   <!-- Theme used for syntax highlighted code -->
@@ -56,6 +56,7 @@
 <script src="{{ config.extra.reveal.plugin.path | url }}/highlight/highlight.js"></script>
 <script src="{{ config.extra.reveal.plugin.path | url }}/zoom/zoom.js"></script>
 <script src="{{ config.extra.reveal.plugin.path | url }}/notes/notes.js"></script>
+<script src="{{ config.extra.reveal.plugin.menu.path | url }}/menu.js"></script>
 
 <script>
   // Full list of configuration options available here:
@@ -67,10 +68,16 @@
     history: true,
     center: true,
     hash: true,
+    {% if page.meta.reveal %}
+    showNotes: {{ page.meta.reveal.showNotes | default(false) | tojson }},
+      {% if page.meta.reveal.menu %}
+    menu: {{ page.meta.reveal.menu | tojson }},
+      {% endif %}
+    {% endif %}
 
     transition: '{{ config.extra.reveal.transition }}', // default/cube/page/concave/zoom/linear/fade/none
     // Learn about plugins: https://revealjs.com/plugins/
-    plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+    plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMenu ]
   });
 </script>
 
