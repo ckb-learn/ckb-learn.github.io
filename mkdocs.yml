@@ -11,6 +11,20 @@ plugins:
         en: "English"
         zh: "简体中文"
       default_language: 'en'
+      no_translation:
+        en: "This page isn't translated to English."
+        zh: "该页面没有翻译成中文。"
+      translate_nav:
+        en:
+          Kernel: "Kernel Developers"
+        zh:
+          Kernel: "内核开发者"
+
+nav:
+  - index.md
+  - index.zh.md
+  - Kernel:
+    - kernel/onboarding/index.zh.md
 
 extra:
   alternate:

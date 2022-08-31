@@ -1,17 +1,32 @@
+{% import "partials/language.html" as lang with context %}
 <!doctype html>
-<html>
+<html lang="{{ lang.t('language') }}" class="no-js">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  {% if config.title %}<title>{{ config.title }}</title>{% endif %}
-  {%- if config.description -%}
-  <meta name="description" content="{{ config.description }}">
-  {%- endif -%}
-  {%- if config.author -%}
-  <meta name="author" content="{{ config.author }}">
-  {%- endif -%}
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  {% if page.meta and page.meta.description %}
+    <meta name="description" content="{{ page.meta.description }}">
+  {% elif config.site_description %}
+    <meta name="description" content="{{ config.site_description }}">
+  {% endif %}
+  {% if page.meta and page.meta.author %}
+    <meta name="author" content="{{ page.meta.author }}">
+  {% elif config.site_author %}
+    <meta name="author" content="{{ config.site_author }}">
+  {% endif %}
+  {% if page.canonical_url %}
+    <link rel="canonical" href="{{ page.canonical_url }}">
+  {% endif %}
+  <link rel="icon" href="{{ config.theme.favicon | url }}">
+  <meta name="generator" content="mkdocs-{{ mkdocs_version }}, mkdocs-material-8.4.2">
+  {% if page.meta and page.meta.title %}
+    <title>{{ page.meta.title }} - {{ config.site_name }}</title>
+  {% elif page.title and not page.is_homepage %}
+    <title>{{ page.title | striptags }} - {{ config.site_name }}</title>
+  {% else %}
+    <title>{{ config.site_name }}</title>
+  {% endif %}
   <base href="{{ config.site_url }}">
-  <link rel="canonical" href="{{ config.site_url }}">
 
   <link rel="stylesheet" href="{{ config.extra.reveal.path }}/reset.css">
   <link rel="stylesheet" href="{{ config.extra.reveal.path }}/reveal.css">
@@ -30,7 +45,7 @@
              data-separator-vertical="^\n--\n$"
              data-notes="^Note:">
       <script type="text/template">
-        {{ page.markdown }}
+        # {{ page.markdown.split('# ', maxsplit=1)[-1] }}
       </script>
     </section>
   </div>
