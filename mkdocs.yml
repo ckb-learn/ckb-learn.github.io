@@ -38,3 +38,9 @@ extra:
       path: theme
     plugin:
       path: reveal.js/plugin
+
+  giscus:
+    repo: "ckb-learn/ckb-learn"
+    repo_id: !ENV GISCUS_REPO_ID
+    category: "General"
+    category_id: !ENV GISCUS_CATEGORY_ID
