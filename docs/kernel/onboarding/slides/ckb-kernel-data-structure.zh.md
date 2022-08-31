@@ -2,4 +2,4 @@
 template: reveal.html
 ---
 
-# CKB 内核数据结构
+# CKB 数据结构

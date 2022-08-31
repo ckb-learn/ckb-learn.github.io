@@ -1,20 +1,24 @@
 site_name: CKB Learn
+repo_url: https://github.com/ckb-learn/ckb-learn
+edit_uri: edit/main/docs/
 theme:
   name: material
   language: en
   custom_dir: theme
+  features:
+    - navigation.tabs
 
 plugins:
   - search
+  - tags
   - i18n:
+      default_language: en
       languages:
-        en: "English"
-        zh: "简体中文"
-      default_language: 'en'
-      no_translation:
-        en: "This page isn't translated to English."
-        zh: "该页面没有翻译成中文。"
-      translate_nav:
+        en:
+          name: English
+        zh:
+          name: 简体中文
+      nav_translations:
         en:
           Kernel: "Kernel Developers"
         zh:
@@ -22,20 +26,10 @@ plugins:
 
 nav:
   - index.md
-  - index.zh.md
   - Kernel:
-    - kernel/onboarding/index.zh.md
+    - kernel/onboarding/index.md
 
 extra:
-  alternate:
-    - name: English
-      link: ""
-      lang: en
-
-    - name: 简体中文
-      link: /index.zh/
-      lang: zh
-
   reveal:
     path: reveal.js/dist
     transition: slide

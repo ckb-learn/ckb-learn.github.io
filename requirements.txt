@@ -25,16 +25,14 @@ mergedeep==1.3.4
     # via mkdocs
 mkdocs==1.3.1
     # via
-    #   mkdocs-i18n
     #   mkdocs-material
-mkdocs-i18n==0.4.4
-    # via -r requirements.in
+    #   mkdocs-static-i18n
 mkdocs-material==8.4.2
-    # via
-    #   -r requirements.in
-    #   mkdocs-i18n
+    # via -r requirements.in
 mkdocs-material-extensions==1.0.3
     # via mkdocs-material
+mkdocs-static-i18n==0.46
+    # via -r requirements.in
 packaging==21.3
     # via mkdocs
 pygments==2.13.0
