@@ -1,0 +1,22 @@
+site_name: CKB Learn
+theme:
+  name: material
+  language: en
+
+plugins:
+  - search
+  - i18n:
+      languages:
+        en: "English"
+        zh: "简体中文"
+      default_language: 'en'
+
+extra:
+  alternate:
+    - name: English
+      link: ""
+      lang: en
+
+    - name: 简体中文
+      link: /index.zh/
+      lang: zh
