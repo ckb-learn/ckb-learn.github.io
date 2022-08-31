@@ -26,15 +26,14 @@
   {% else %}
     <title>{{ config.site_name }}</title>
   {% endif %}
-  <base href="{{ config.site_url }}">
 
-  <link rel="stylesheet" href="{{ config.extra.reveal.path }}/reset.css">
-  <link rel="stylesheet" href="{{ config.extra.reveal.path }}/reveal.css">
-  <link rel="stylesheet" href="{{ config.extra.reveal.path }}/{{ config.extra.reveal.theme.path }}/{{ page.meta.reveal_theme | default(config.extra.reveal.theme.name) }}"
+  <link rel="stylesheet" href="{{ config.extra.reveal.path | url }}/reset.css">
+  <link rel="stylesheet" href="{{ config.extra.reveal.path | url }}/reveal.css">
+  <link rel="stylesheet" href="{{ config.extra.reveal.path | url }}/{{ config.extra.reveal.theme.path }}/{{ page.meta.reveal_theme | default(config.extra.reveal.theme.name) }}"
         id="theme">
 
   <!-- Theme used for syntax highlighted code -->
-  <link rel="stylesheet" href="{{ config.extra.reveal.plugin.path }}/highlight/monokai.css" id="highlight-theme">
+  <link rel="stylesheet" href="{{ config.extra.reveal.plugin.path | url }}/highlight/monokai.css" id="highlight-theme">
 </head>
 <body>
 
@@ -51,12 +50,12 @@
   </div>
 </div>
 
-<script src="{{ config.extra.reveal.path }}/reveal.js"></script>
+<script src="{{ config.extra.reveal.path | url }}/reveal.js"></script>
 
-<script src="{{ config.extra.reveal.plugin.path }}/markdown/markdown.js"></script>
-<script src="{{ config.extra.reveal.plugin.path }}/highlight/highlight.js"></script>
-<script src="{{ config.extra.reveal.plugin.path }}/zoom/zoom.js"></script>
-<script src="{{ config.extra.reveal.plugin.path }}/notes/notes.js"></script>
+<script src="{{ config.extra.reveal.plugin.path | url }}/markdown/markdown.js"></script>
+<script src="{{ config.extra.reveal.plugin.path | url }}/highlight/highlight.js"></script>
+<script src="{{ config.extra.reveal.plugin.path | url }}/zoom/zoom.js"></script>
+<script src="{{ config.extra.reveal.plugin.path | url }}/notes/notes.js"></script>
 
 <script>
   // Full list of configuration options available here:
