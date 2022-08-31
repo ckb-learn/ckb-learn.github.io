@@ -2,6 +2,16 @@ site_name: CKB Learn
 theme:
   name: material
   language: en
+  custom_dir: theme
+
+reveal:
+  path: reveal.js/dist
+  transition: slide
+  theme:
+    name: white.css
+    path: theme
+  plugin:
+    path: reveal.js/plugin
 
 plugins:
   - search
