@@ -9,8 +9,6 @@ theme:
     - navigation.tabs
 
 plugins:
-  - search
-  - tags
   - i18n:
       default_language: en
       languages:
@@ -23,6 +21,10 @@ plugins:
           Kernel: "Kernel Developers"
         zh:
           Kernel: "内核开发者"
+  - search
+  - tags
+  - git-revision-date-localized:
+      enable_creation_date: true
 
 nav:
   - index.md
