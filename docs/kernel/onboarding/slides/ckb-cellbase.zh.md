@@ -57,6 +57,7 @@ Note:
 <!-- https://excalidraw.com/#json=McmrNbvcosefSMuS0LI_U,VX4DKKvcY_jH2uyFHt76rA -->
 
 ![ckb-cellbase](https://user-images.githubusercontent.com/35768/189477309-b983892f-ee10-48aa-97e0-c502f615088d.png)
+<!-- .element: class="r-stretch" -->
 
 Note:
 - Block N 的 Cellbase
@@ -123,6 +124,7 @@ Inputs 总额 - Outputs 总额
 <!-- https://excalidraw.com/#json=S_v9pES-axk8VzaGfzYnt,mjCVQz6B45juudwz2vIV-A -->
 
 ![tx-2-step-commitment](https://user-images.githubusercontent.com/35768/189477890-bf7e6fed-0058-44ca-8bb0-f7b545c3fc88.png)
+<!-- .element: class="r-stretch" -->
 
 --
 
@@ -150,8 +152,9 @@ Block N 确认区中的交易的短 ID 必须在 Block N - 10 到 N - 2 中的�
 ## Cellbase 计算实例
 
 ![](https://user-images.githubusercontent.com/35768/189478271-8d930113-3dd7-47ba-a7dc-49f357df2c6d.png)
+<!-- .element: class="r-stretch" -->
 
-https://explorer.nervos.org/transaction/0x23808638ec7f21162320d9bc009ce753ee24edb7114cc6d88db9c3263b12d03b
+[Open in Explorer](https://explorer.nervos.org/transaction/0x23808638ec7f21162320d9bc009ce753ee24edb7114cc6d88db9c3263b12d03b)
 
 --
 
