@@ -109,6 +109,7 @@ CKB 是
 <!-- https://excalidraw.com/#json=eWKEye-pxim97f_PcWEsy,EsBMaVHzECiW1E912g4Prg -->
 
 ![alice-100-ckb-to-bob](https://user-images.githubusercontent.com/35768/189264303-7698596f-c581-4b50-bd1e-88cc701a2998.png)
+<!-- .element: class="r-stretch" -->
 
 --
 
@@ -123,6 +124,7 @@ Alice 不能把 200 CKB 的 Cell 余额改成 100 CKB
 <!-- https://excalidraw.com/#json=A2O56hz-vxBVZNUMAgHct,eQ7Gwy5vZVJtDWbddBjJaA -->
 
 ![Alice Sends 100 CKB to Bob - Wrong](https://user-images.githubusercontent.com/35768/189358804-f68b9084-5f86-4b11-b0ae-11dc83be7070.png)
+<!-- .element: class="r-stretch" -->
 
 --
 
@@ -143,6 +145,7 @@ Alice 在交易输出中为自己创建的 Cell 被称为找零
 <!-- https://excalidraw.com/#json=WPw1xcN1FGxatKLBYepb1,fni5-aKbzSNM_2xwArofow -->
 
 ![Alice Sends 100 CKB to Bob - Right](https://user-images.githubusercontent.com/35768/189360306-ee4b0024-e76e-42db-bce2-6187ddf0598a.png)
+<!-- .element: class="r-stretch" -->
 
 --
 
@@ -215,6 +218,7 @@ Alice 在交易输出中为自己创建的 Cell 被称为找零
 <!-- https://excalidraw.com/#json=4V7AkzaAy1hh1jg9x8ZPn,EKMsuBYYHaFxq06esTM7bw -->
 
 ![ckb-value-as-capacity](https://user-images.githubusercontent.com/35768/189465832-e1d856ac-e473-4101-b724-32d397c2e70c.png)
+<!-- .element: class="r-stretch" -->
 
 --
 
@@ -237,6 +241,7 @@ Alice 在交易输出中为自己创建的 Cell 被称为找零
 <!-- https://excalidraw.com/#json=mxwG0wgm0hCAsTr8ShyCk,Y2a3KI-tp8q8swb1yFEyTw -->
 
 ![script-hash-type](https://user-images.githubusercontent.com/35768/189465995-7bd18ea6-2bef-44b9-b2c5-a200c4be39a5.png)
+<!-- .element: class="r-stretch" -->
 
 --
 
