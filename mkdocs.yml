@@ -40,6 +40,8 @@ extra:
       path: theme
     plugin:
       path: reveal.js/plugin
+      menu:
+        path: reveal.js-menu
 
   giscus:
     repo: "ckb-learn/ckb-learn"
