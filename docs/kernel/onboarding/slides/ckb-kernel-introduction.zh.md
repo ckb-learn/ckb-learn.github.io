@@ -284,7 +284,7 @@ Note:
 - Proof of Work
 - 工作量证明
 
----
+--
 
 ### 去中心化共识
 
@@ -293,7 +293,7 @@ Note:
 - 每个节点**独立**验证新的区块，并组装到区块链中
 - 通过 PoW，每个节点**独立**选择具有最多累积工作量证明的链
 
----
+--
 
 ### PoW 算法
 
@@ -303,21 +303,21 @@ Note:
 
 [eaglesong]: https://github.com/nervosnetwork/rfcs/blob/master/rfcs/0010-eaglesong/0010-eaglesong.md
 
----
+--
 
 ### PoW 算法 (续)
 
 - 区块中留有字段可以填充随机数据
 - 最佳策略就是反复随机看结果是否满足
 
----
+--
 
 ### 挖矿奖励
 
 - 被网络选择到链中的区块的生产者可以获得奖励
 - 具体奖励见 [CKB Cellbase](../ckb-cellbase/)
 
----
+--
 
 ### PoW 如何抵抗攻击？
 
