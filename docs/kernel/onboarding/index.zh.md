@@ -4,5 +4,3 @@
 
 - [CKB 内核简介](slides/ckb-kernel-introduction/)
 - [CKB Cellbase](slides/ckb-cellbase/)
-- [CKB 交易两步确认](slides/ckb-tx-two-step-confirmation/)
-- [CKB 难度调整](slides/ckb-difficulty-adjustment/)
