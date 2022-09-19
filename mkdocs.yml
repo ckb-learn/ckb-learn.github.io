@@ -1,5 +1,5 @@
 site_name: CKB Learn
-repo_url: https://github.com/ckb-learn/ckb-learn
+repo_url: https://github.com/ckb-learn/ckb-learn.github.io
 edit_uri: edit/main/docs/
 theme:
   name: material
@@ -44,7 +44,7 @@ extra:
         path: reveal.js-menu
 
   giscus:
-    repo: "ckb-learn/ckb-learn"
+    repo: "ckb-learn/ckb-learn.github.io"
     repo_id: !ENV GISCUS_REPO_ID
     category: "General"
     category_id: !ENV GISCUS_CATEGORY_ID
