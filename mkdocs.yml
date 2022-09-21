@@ -21,6 +21,8 @@ plugins:
           Kernel: "Kernel Developers"
         zh:
           Kernel: "内核开发者"
+          Kernel Onboarding: "CKB 内核入门"
+          Slides: "演示文稿"
   - search
   - tags
   - git-revision-date-localized:
@@ -29,7 +31,12 @@ plugins:
 nav:
   - index.md
   - Kernel:
-    - kernel/onboarding/index.md
+    - Kernel Onboarding:
+      - kernel/onboarding/index.md
+      - Slides:
+        - kernel/onboarding/slides/ckb-kernel-introduction/index.md
+        - kernel/onboarding/slides/ckb-cellbase/index.md
+        - kernel/onboarding/slides/ckb-dynamic-difficulty-adjustment.md
 
 extra:
   reveal:

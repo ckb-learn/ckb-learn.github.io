@@ -8,7 +8,7 @@ reveal:
 
 - [显示注释](?showNotes=true)
 - [参与讨论](https://github.com/ckb-learn/ckb-learn.github.io/discussions/12)
-- [在 GitHub 上编辑](https://github.com/ckb-learn/ckb-learn.github.io/edit/main/docs/kernel/onboarding/slides/ckb-cellbase.zh.md)
+- [在 GitHub 上编辑](https://github.com/ckb-learn/ckb-learn.github.io/edit/main/docs/kernel/onboarding/slides/ckb-cellbase/index.zh.md)
 - [返回课程列表](../../)
 
 Note:
