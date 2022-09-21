@@ -8,7 +8,7 @@ reveal:
 
 - [显示注释](?showNotes=true)
 - [参与讨论](https://github.com/ckb-learn/ckb-learn.github.io/discussions/10)
-- [在 GitHub 上编辑](https://github.com/ckb-learn/ckb-learn.github.io/edit/main/docs/kernel/onboarding/slides/ckb-kernel-introduction.zh.md)
+- [在 GitHub 上编辑](https://github.com/ckb-learn/ckb-learn.github.io/edit/main/docs/kernel/onboarding/slides/ckb-kernel-introduction/index.zh.md)
 - [返回课程列表](../../)
 
 Note:
@@ -79,7 +79,10 @@ CKB 是
 
 <!-- .slide: data-menu-title="交易的价值转移（图示）" -->
 
-![https://excalidraw.com/#json=KeR5e08OsQ2Ya8taozY75,cX0-9MyN7B8uTIOK7YfkUA](https://user-images.githubusercontent.com/35768/189262977-fc108070-d628-4162-a925-43a4f0e724ae.png)
+<!-- https://excalidraw.com/#json=KeR5e08OsQ2Ya8taozY75,cX0-9MyN7B8uTIOK7YfkUA -->
+
+![CKB Value Transfer](value-transfer.png)
+<!-- .element: class="r-stretch" -->
 
 --
 
@@ -110,7 +113,7 @@ CKB 是
 
 <!-- https://excalidraw.com/#json=eWKEye-pxim97f_PcWEsy,EsBMaVHzECiW1E912g4Prg -->
 
-![alice-100-ckb-to-bob](https://user-images.githubusercontent.com/35768/189264303-7698596f-c581-4b50-bd1e-88cc701a2998.png)
+![Alice Want to Send 100 CKB to Bob](alice-100-ckb-to-bob.png)
 <!-- .element: class="r-stretch" -->
 
 --
@@ -125,7 +128,7 @@ Alice 不能把 200 CKB 的 Cell 余额改成 100 CKB
 
 <!-- https://excalidraw.com/#json=A2O56hz-vxBVZNUMAgHct,eQ7Gwy5vZVJtDWbddBjJaA -->
 
-![Alice Sends 100 CKB to Bob - Wrong](https://user-images.githubusercontent.com/35768/189358804-f68b9084-5f86-4b11-b0ae-11dc83be7070.png)
+![Alice Sends 100 CKB to Bob - Wrong](alice-100-ckb-to-bob-wrong.png)
 <!-- .element: class="r-stretch" -->
 
 --
@@ -146,7 +149,7 @@ Alice 在交易输出中为自己创建的 Cell 被称为找零
 
 <!-- https://excalidraw.com/#json=WPw1xcN1FGxatKLBYepb1,fni5-aKbzSNM_2xwArofow -->
 
-![Alice Sends 100 CKB to Bob - Right](https://user-images.githubusercontent.com/35768/189360306-ee4b0024-e76e-42db-bce2-6187ddf0598a.png)
+![Alice Sends 100 CKB to Bob - Right](alice-100-ckb-to-bob-right.png)
 <!-- .element: class="r-stretch" -->
 
 --
@@ -219,7 +222,7 @@ Alice 在交易输出中为自己创建的 Cell 被称为找零
 
 <!-- https://excalidraw.com/#json=4V7AkzaAy1hh1jg9x8ZPn,EKMsuBYYHaFxq06esTM7bw -->
 
-![ckb-value-as-capacity](https://user-images.githubusercontent.com/35768/189465832-e1d856ac-e473-4101-b724-32d397c2e70c.png)
+![CKB Value as Capacity](ckb-value-as-capacity.png)
 <!-- .element: class="r-stretch" -->
 
 --
@@ -242,7 +245,7 @@ Alice 在交易输出中为自己创建的 Cell 被称为找零
 
 <!-- https://excalidraw.com/#json=mxwG0wgm0hCAsTr8ShyCk,Y2a3KI-tp8q8swb1yFEyTw -->
 
-![script-hash-type](https://user-images.githubusercontent.com/35768/189465995-7bd18ea6-2bef-44b9-b2c5-a200c4be39a5.png)
+![Script Hash Type](script-hash-type.png)
 <!-- .element: class="r-stretch" -->
 
 --
