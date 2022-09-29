@@ -38,6 +38,9 @@ nav:
         - kernel/onboarding/slides/ckb-cellbase/index.md
         - kernel/onboarding/slides/ckb-dynamic-difficulty-adjustment.md
 
+extra_css:
+  - stylesheets/extra.css
+
 extra:
   reveal:
     path: reveal.js/dist
