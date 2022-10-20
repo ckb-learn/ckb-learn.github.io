@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+         <loc>.</loc>
+         <lastmod>2022-10-20</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="en/"/>
+         <xhtml:link rel="alternate" hreflang="zh" href="zh/"/>
+         
+    </url>
+    <url>
+         <loc>kernel/onboarding/</loc>
+         <lastmod>2022-10-20</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="en/kernel/onboarding/"/>
+         <xhtml:link rel="alternate" hreflang="zh" href="zh/kernel/onboarding/"/>
+         
+    </url>
+    <url>
+         <loc>kernel/onboarding/slides/ckb-dynamic-difficulty-adjustment.zh/</loc>
+         <lastmod>2022-10-20</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="en/kernel/onboarding/slides/ckb-dynamic-difficulty-adjustment.zh/"/>
+         
+         
+    </url>
+    <url>
+         <loc>kernel/onboarding/slides/ckb-cellbase/index.zh/</loc>
+         <lastmod>2022-10-20</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="en/kernel/onboarding/slides/ckb-cellbase/index.zh/"/>
+         
+         
+    </url>
+    <url>
+         <loc>kernel/onboarding/slides/ckb-cellbase/slides.zh/</loc>
+         <lastmod>2022-10-20</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="en/kernel/onboarding/slides/ckb-cellbase/slides.zh/"/>
+         
+         
+    </url>
+    <url>
+         <loc>kernel/onboarding/slides/ckb-kernel-introduction/index.zh/</loc>
+         <lastmod>2022-10-20</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="en/kernel/onboarding/slides/ckb-kernel-introduction/index.zh/"/>
+         
+         
+    </url>
+    <url>
+         <loc>kernel/onboarding/slides/ckb-kernel-introduction/slides.zh/</loc>
+         <lastmod>2022-10-20</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="en/kernel/onboarding/slides/ckb-kernel-introduction/slides.zh/"/>
+         
+         
+    </url>
+</urlset>
